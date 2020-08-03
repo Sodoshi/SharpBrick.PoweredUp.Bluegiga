@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BGLibExt" Version="2.0.0" />
+    <PackageReference Include="System.IO.Ports" Version="4.7.0" />
+    <PackageReference Include="System.Management" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharpBrick.PoweredUp\SharpBrick.PoweredUp.csproj" />
+  </ItemGroup>
+
+</Project>
